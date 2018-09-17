@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'PagesController@root')->name('root');
+
+Auth::routes();     //Laravel 的用户认证路由，这里不需要去修改。
